@@ -5,27 +5,27 @@
 }
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #fff;
-}
-.fixo, .fluido{
-    /* centraliza: direita e esquerda auto */
-    margin: 10px auto; 
-    width: 1100px;
-    height: 300px;
     background-color: #d6e4f0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.box{
-    width: 250px;
-    height: 250px;
-    background-color: #d92332;
-    margin: 0 10px;
+.container{
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 10px;
+    height: 150px;
 }
-.fluido{
-    width: 95%;
+.fixo{
+    width: 1100px;
+
 }
-.box{
-    width: 15%;
+.porcentagem{
+    width: 100%;
+}
+.vw{
+    /* vw -> viewport width (largura) */
+    /* vh -> viewport height (altura) */
+    /* 50 vw -> 50% de viewport */
+    /* Qual a diferença do viewport e da porcentagem? */
+    /* R: viewport irá gerar uma pequena barra de rolagem quando houver outro conteúdo */
+    /* nesse caso é preferível usar a porcentagem */
+    width: 100vw; 
 }
